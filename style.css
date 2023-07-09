@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  background-color: rgb(31, 36, 45);
+}
+
+header {
+  width: 100%;
+  height: 4rem;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hed-h {
+  margin-left: 6rem;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+.hed-nav {
+  margin-right: 6rem;
+}
+
+.header-anchor {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  margin: 0 1rem;
+}
+
+.header-anchor:hover {
+  color: cyan;
+}
+
+section {
+  width: 100vw;
+  height: 90vh;
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.main-s-h,
+.main-heading,
+.support-heading,
+.main-support-heading,
+.social-media,
+.btn-download {
+  margin-left: 6rem;
+  color: white;
+}
+
+.main-s-h {
+  font-size: 1.25rem;
+}
+
+.main-heading {
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+  color: cyan;
+  margin: -0.5rem 6rem;
+}
+
+.support-heading {
+  font-size: 0.75rem;
+}
+
+.main-support-heading {
+  font-size: 1.45rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.profile-icons {
+  color: white;
+  font-size: 2.25rem;
+}
+
+.profile-icons:hover {
+  color: cyan;
+}
+
+.btn-download {
+  padding: 0.5rem 1.5rem;
+  background-color: cyan;
+  color: rgb(31, 36, 45);
+  text-decoration: none;
+  border-radius: 35px;
+  font-weight: 600;
+  border: 2px solid cyan;
+}
+
+.btn-download:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #fff;
+}
