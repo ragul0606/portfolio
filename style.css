@@ -51,8 +51,8 @@ header {
 }
 
 section {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -72,6 +72,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .box-left {
@@ -180,15 +181,14 @@ section {
 }
 
 .section-two {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  margin-left: 6rem;
-  margin-right: 6rem;
+  gap: 0.95rem;
+  /* overflow-x: hidden; */
 }
 
 .about {
@@ -203,4 +203,5 @@ section {
   text-align: center;
   margin-right: 6rem;
   margin-left: 6rem;
+  color: #fff;
 }
